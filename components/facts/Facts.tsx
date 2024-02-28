@@ -6,29 +6,29 @@ function Facts({className , ...restProps} : DsnGridProps) {
         <DsnGrid className={dsnCN("facts-section p-relative over-hidden", className)} {...restProps}>
             <div className="facts-item">
                 <div className="text-center p-relative">
-                    <span className="number">70</span>
-                    <h6 className="sm-title-block v-middle w-100">Happy Clients</h6>
-                </div>
-            </div>
-
-            <div className="facts-item">
-                <div className="text-center p-relative">
-                    <span className="number">63</span>
-                    <h6 className="sm-title-block v-middle w-100">Working hours were spent</h6>
+                    <span className="number">60+</span>
+                    <h6 className="sm-title-block v-middle w-100">Satisfied Client</h6>
                 </div>
             </div>
 
             <div className="facts-item">
                 <div className="text-center p-relative">
                     <span className="number">51</span>
-                    <h6 className="sm-title-block v-middle w-100">Succeeded Projects</h6>
+                    <h6 className="sm-title-block v-middle w-100">Working hours were spent</h6>
                 </div>
             </div>
 
             <div className="facts-item">
                 <div className="text-center p-relative">
-                    <span className="number">13</span>
-                    <h6 className="sm-title-block v-middle w-100">Finished Tearly Project</h6>
+                    <span className="number">57+</span>
+                    <h6 className="sm-title-block v-middle w-100">Projects Completed</h6>
+                </div>
+            </div>
+
+            <div className="facts-item">
+                <div className="text-center p-relative">
+                    <span className="number">8+</span>
+                    <h6 className="sm-title-block v-middle w-100">Current Ongoing Projects</h6>
                 </div>
             </div>
         </DsnGrid>

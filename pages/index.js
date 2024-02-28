@@ -54,7 +54,7 @@ function Home() {
                     className="align-items-center text-center"
                     description={"Our Services"}
                 >
-                    We are delivering beautiful <br/> digital products for you.
+                    Crafting exquisite digital solutions for Software, <br/> SaaS, and eCommerce needs.
                 </TitleSection>
                 <ServiceOne/>
             </div>
@@ -66,24 +66,24 @@ function Home() {
                 <MoveBox tablet={false}>
                     <TitleSection
                         className={`align-items-start mb-30`}
-                        description={"Build perfect websites"}
+                        description={"Build Responsive websites"}
                         defaultSpace={false}
                     >
-                        Unlimited power
+                       Our Product
                     </TitleSection>
 
                     <p className="mb-10">
-                        Most of our writings have centered on implementing strategies for
-                        business units, with their unique
+                    From sleek and responsive designs to seamless user experiences,
+                     we craft websites that captivate audiences and drive results.
                     </p>
                     <p className="mb-30">
-                        geeza arse it’s your round grub sloshed burke, my good sir chancer
-                        he legged it he lost his bottle pear shaped bugger all mate
+                    Whether you need a simple landing page or a complex e-commerce platform,
+                    our expert team delivers tailor-made solutions that elevate your online presence.
                     </p>
 
-                    <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Our Portfolio"}}>
+                    {/* <Button href={"work-classic-2-col"} className={"image-zoom"} data-dsn="parallax" transitionPage={{title:"Our Portfolio"}}>
                         More Projects <span>⟶</span>
-                    </Button>
+                    </Button> */}
 
                     <p className={`sm-p mt-15 theme-color`}>
                         NOTE : Some details are very important.
@@ -94,7 +94,7 @@ function Home() {
 
 
             {/*Start Portfolio*/}
-            <div className="section-margin" data-dsn-title="Our Portfolio">
+            {/* <div className="section-margin" data-dsn-title="Our Portfolio">
                 <TitleSection
                     className={`container align-items-center text-center`}
                     description={"Our Works"}
@@ -123,7 +123,7 @@ function Home() {
                         className={`justify-content-between dsn-container mt-30`}
                     />
                 </PortfolioSwiper>
-            </div>
+            </div> */}
             {/*End Portfolio*/}
 
             {/*Start testimonial Section*/}
@@ -163,32 +163,32 @@ function Home() {
                     <div className="p-relative pt-lg-section">
                         <div className="box-info h-100 box-padding background-section ">
                             <DsnGrid className="box-info-inner" col={1} colGap={0}>
-                                <TitleCover>Eremia</TitleCover>
+                                <TitleCover>BZ Tech</TitleCover>
                                 <TitleSection
                                     className={"text-uppercase"}
-                                    description={"OUR PURPOSE"}
+                                    description={"OUR VISION"}
                                     defaultSpace={false}
                                 >
                                     We Plan Your Project
                                 </TitleSection>
                                 <Accordion>
-                                    <AccordionItem title="Extensive Employment" active number={1}>
+                                    <AccordionItem title="Empowering Success" active number={1}>
                                         <p>
-                                            Quisque placerat vitae lacus ut sceleris queusce luctus
-                                            odio ac nibh luctus, in porttitor.
+                                        Empowering businesses with innovative solutions, expert guidance,
+                                         enabling growth, and thriving in dynamic markets.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="Dedicated Staff" number={2}>
+                                    <AccordionItem title="Fostering Collaboration" number={2}>
                                         <p>
-                                            Quisque placerat vitae lacus ut sceleris queusce luctus
-                                            odio ac nibh luctus, in porttitor.
+                                        Fostering effective collaboration: teamwork, trust, communication flourish,
+                                         drawing on diverse expertise for outstanding outcomes.
                                         </p>
                                     </AccordionItem>
-                                    <AccordionItem title="User Experience" number={3}>
+                                    <AccordionItem title="Igniting Innovation" number={3}>
                                         <p>
-                                            Cepteur sint occaecat cupidatat proident, taken possession
-                                            of my entire soul, like these sweet mornings of spring
-                                            which I enjoy with my whole.
+                                        Core: innovation drives continuous improvement, 
+                                        disrupts, inspires change, forward-thinking approach,
+                                        igniting innovation in clients' organizations.
                                         </p>
                                     </AccordionItem>
                                 </Accordion>
@@ -200,7 +200,7 @@ function Home() {
             {/*End box vertical Section*/}
 
             {/*Start Blog*/}
-            <div className="section-margin" data-dsn-title="Lasts post">
+            {/* <div className="section-margin" data-dsn-title="Lasts post">
                 <TitleSection
                     className={`container  align-items-center text-center`}
                     description={"Lasts post"}
@@ -228,11 +228,11 @@ function Home() {
                         className={`justify-content-between dsn-container mt-30`}
                     />
                 </BlogSwiper>
-            </div>
+            </div> */}
             {/*End Blog*/}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Our Team">
+            {/* <section className="container section-margin " data-dsn-title="Our Team">
                 <TitleSection
                     className={` align-items-center text-center`}
                     description={"Our Team"}
@@ -241,7 +241,7 @@ function Home() {
                 </TitleSection>
 
                 <Team col={3} colTablet={2}/>
-            </section>
+            </section> */}
             {/*========== End team Section ========== */}
 
             {/*========== End brand-client Section ==========*/}
@@ -250,7 +250,7 @@ function Home() {
                     className={`align-items-center text-center`}
                     description={"Our clients"}
                 >
-                    Your successful, our <br/>
+                    Your Success, our <br/>
                     reputation
                 </TitleSection>
 
