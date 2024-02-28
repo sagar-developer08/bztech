@@ -8,14 +8,14 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 
 
 const HeroContent = {
-    title: "Hello we, are <br/> Dsn Grid",
-    subtitle: `We’re a creative agency with an expertise in make custom websites.`,
-    description: `Founded in 2000, Dsn Grid has become one of the best Digital Agency in Themeforest. <span class="mb-10 d-block" ></span>
-     Blue money going forward, but deploy to production. First-order optimal strategies build on a culture of contribution and inclusion so those options`,
+    title: "Hello we, are <br/> BZ TECH.",
+    subtitle: `At BZ Tech, we are more than just a company - we are a force that ignites growth and fuels success.`,
+    description: `BZ Tech was founded in 2022, by Shubham and Sagar, two individuals driven by a shared dream of bridging the gap between traditional businesses and cutting-edge technology. <span class="mb-10 d-block" ></span>
+    Shubham, a problem-solving enthusiast with a passion for coding, and Sagar, with years of real-world experience in government projects, united to create BZ Tech. Our mission is simple: to empower businesses with digital solutions and redefine the future of technology. Join us as we pave the way for innovation in the digital age`,
     authorTitle: "SALVADOR DALI",
     authorJob: "Digital Artisit",
-    experienceNumber: "25",
-    experienceDescription: `YEARS OF \nDIGITAL EXPERIENCE`,
+    experienceNumber: "4+",
+    experienceDescription: `YEARS OF \n EXPERIENCE`,
     heroImage: '/img/about-intro.jpg',
     awards: [
         {number: 37, description: `Business <br/> partner`},
