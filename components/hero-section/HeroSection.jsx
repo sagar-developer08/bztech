@@ -12,14 +12,14 @@ const HeroContent = {
     subtitle: `At BZ Tech, we are more than just a company - we are a force that ignites growth and fuels success.`,
     description: `BZ Tech was founded in 2022, by Shubham and Sagar, two individuals driven by a shared dream of bridging the gap between traditional businesses and cutting-edge technology. <span class="mb-10 d-block" ></span>
     Shubham, a problem-solving enthusiast with a passion for coding, and Sagar, with years of real-world experience in government projects, united to create BZ Tech. Our mission is simple: to empower businesses with digital solutions and redefine the future of technology. Join us as we pave the way for innovation in the digital age`,
-    authorTitle: "SALVADOR DALI",
-    authorJob: "Digital Artisit",
+    // authorTitle: "SALVADOR DALI",
+    // authorJob: "Digital Artisit",
     experienceNumber: "4+",
     experienceDescription: `YEARS OF \n EXPERIENCE`,
     heroImage: '/img/about-intro.jpg',
     awards: [
-        {number: 37, description: `Business <br/> partner`},
-        {number: 19, description: `SUTISFIED <br/> CUSTOMERS`},
+        {number: "4+", description: `Years <br/> in Industries`},
+        {number: "60+", description: `Projects <br/> Completed`},
     ]
 };
 

@@ -82,37 +82,33 @@ function Demo2() {
                 <p className="sub-heading line-bg-left mb-15 text-uppercase">What We Do</p>
                 <DsnGrid col={2}>
                     <div className="box-left">
-                        <h4> Keep Your Business Safe & Ensure High Availability </h4>
+                        <h4> Design Strategy, Web and Mobile App Design,Front-end Development & Back-end Development </h4>
                     </div>
                     <div className="box-right">
                         <p className="max-w570 dsn-up mb-15 ">
-                            A business consulting agency is involved in
-                            the planning, implementation, and education of
-                            businesses. We work directly
-                            with business owners on developing a business
-                            plan, identifying marketing
-                            needs and developing the necessary skills for
-                            business ownership.</p>
+                        BZ Tech offers comprehensive design, development, 
+                        and business strategy services while prioritizing social responsibility,
+                        guiding businesses towards success in a competitive landscape.</p>
 
-                        <p className="max-w570 dsn-up">
+                        {/* <p className="max-w570 dsn-up">
                             but deploy to production. C-suite. First-order optimal
                             strategies build on a culture of contribution and inclusion so those
                             options
-                        </p>
+                        </p> */}
                     </div>
                 </DsnGrid>
                 <List className="pt-50 mt-50 border-top mt-md-30 pt-md-30" col={3} iconSize="20px">
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
                                className="align-items-center" >
-                        Advanced Grid
+                        Crafting Code, Inspiring Futures
                     </List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
                                className="align-items-center">
-                        Top Performance
+                       Where Innovation Meets Functionality
                     </List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
                                className="align-items-center">
-                        Responsive Design
+                        Empowering Tomorrow's Solutions, Today.
                     </List.item>
                 </List>
             </div>
@@ -281,7 +277,7 @@ function Demo2() {
             <section className="container section-margin" data-dsn-title="our clients">
                 <TitleSection className={`align-items-center text-center`}
                               description={"Our clients"}>
-                    Your successful, our <br/>reputation
+                    Your success, <br/>  our reputation
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={2} colGap={0} rowGap={0}/>

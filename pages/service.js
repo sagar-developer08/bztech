@@ -37,7 +37,7 @@ function Service() {
                     <span className="pl-10 pr-10 background-main">OUR SERVICES</span>
                 </p>
                 <h1 className="title">
-                    We are delivering beautiful <br/> digital products for you.
+                Transforming digital landscapes with <br/> innovative solutions.
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
@@ -47,16 +47,16 @@ function Service() {
                 <div className="box-left">
                     <TitleSection defaultSpace={false} description="What We Do"/>
                     <h4 className="mt-25">
-                        The good writers touch life often. The mediocre ones run a quick hand
-                        over her. The bad ones rape her and leave her for the flies.
+                    We design products that are more than pretty. We make them shippable and usable. 
+                    Ignite Your Potential with BZ Tech, Where Transformation Begins.
                     </h4>
                 </div>
                 <div className="box-right">
                     <TitleSection defaultSpace={false} description="Our Services"/>
                     <ul className="mt-25">
-                        <li className="mb-15">Brand Consulting</li>
+                        <li className="mb-15">Software developemt</li>
+                        <li className="mb-15">Web and Mobile App Design</li>
                         <li className="mb-15">Marketing Management</li>
-                        <li className="mb-15">Customer Insight</li>
                     </ul>
 
                 </div>
@@ -84,27 +84,27 @@ function Service() {
                     </div>
 
                     <div className="p-relative box-right">
-                        <TitleCover>Diesel</TitleCover>
+                        <TitleCover>BZ Tech</TitleCover>
                         <TitleSection className="mb-30" description="We make digital" defaultSpace={false}>
-                            Make better products make products better
+                        From inception to launch, we provide end-to-end project strategy and development services
                         </TitleSection>
                         <List className="border-top  pt-30 mb-30" col={2} iconSize={"15px"}>
                             <List.item icon={<FontAwesomeIcon icon={faCheckCircle} className="theme-color"/>}
-                                       headingTag="span"> Proin gravida nibh vel </List.item>
+                                       headingTag="span"> Web and Mobile App Design </List.item>
                             <List.item icon={<FontAwesomeIcon icon={faCheckCircle} className="theme-color"/>}
-                                       headingTag="span"> Proin gravida nibh vel </List.item>
+                                       headingTag="span"> UI/UX Design & Optimization </List.item>
                             <List.item icon={<FontAwesomeIcon icon={faCheckCircle} className="theme-color"/>}
-                                       headingTag="span"> Auctor aliquet aenean quis </List.item>
+                                       headingTag="span"> Project Strategy & Developmen </List.item>
                             <List.item icon={<FontAwesomeIcon icon={faCheckCircle} className="theme-color"/>}
-                                       headingTag="span"> Auctor aliquet aenean quis </List.item>
+                                       headingTag="span"> Application Audit & Debugging </List.item>
                         </List>
                         <ServiceGrid className="icon-left p-0 border-top  pt-30 align-items-center"
 
                                      iconOption={{className: "background-main p-15 align-self-center"}}
                                      data={[{
                                          icon: IdeaIcon,
-                                         title: "Best Practices from Industry Experts ",
-                                         description: "We’ve designed a culture that allows our stewards to assimilate with our clients and bring."
+                                         title: "Success merges passion and expertise. Our team of devoted professionals delivers exceptional results by going above and beyond for clients ",
+                                         description: "So whether you're looking to streamline your operations, enhance your digital presence, or transform your business for the future, BZ TECH is here to help."
                                      }]}/>
 
                     </div>
@@ -117,20 +117,19 @@ function Service() {
             <div className="p-relative section-margin" data-dsn-title="BUSINESS CONSULTING">
                 <DsnGrid className="container" col={2} colTablet={1}>
                     <div className="p-relative box-left order-md-2">
-                        <TitleCover>Diesel</TitleCover>
-                        <TitleSection className="mb-30" description="Some Feature" defaultSpace={false}>
-                            BUSINESS CONSULTING
+                        <TitleCover>BZ Tech</TitleCover>
+                        <TitleSection className="mb-30" description="About us" defaultSpace={false}>
+                        We super-charge your business today!
                         </TitleSection>
                         <p className="max-w570 dsn-up mb-10 border-top pt-30">
-                            Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-                            ThemeForest Blue money going forward.
+                        When you choose BZ Tech, you're not just getting a service provider - 
+                        you're entering into a partnership built on trust, transparency, and collaboration.
                         </p>
                         <p className="max-w570 dsn-up border-bottom pb-30">
-                            but deploy to production. C-suite. First-order optimal
-                            strategies build on a culture of contribution and inclusion so those
-                            options
+                        We take the time to truly understand your business, its goals, and its challenges. 
+                        This allows us to develop customized solutions that drive real, measurable results.
                         </p>
-                        <ButtonProject href="#0" className="mt-30"> Visit Website </ButtonProject>
+                        <ButtonProject href="#0" className="mt-30"> BZ TECH </ButtonProject>
 
                     </div>
                     <div className="p-relative box-right order-md-1">
@@ -149,34 +148,33 @@ function Service() {
             <div className="p-relative background-section section-padding" data-dsn-title="Project Manager">
 
                 <div className="container">
-                    <TitleSection className="text-center" description="Most have theme" defaultSpace={false}>
+                    <TitleSection className="text-center" description="Other Services" defaultSpace={false}>
                         BUSINESS CONSULTING
                     </TitleSection>
                     <TitleSection className="text-center mt-15" tag="p" dirDescription="after" classDesInner="max-w570"
-                                  description="Get Essentials today and start building next-generation websites,
-                              create awesome pages with unlimited possibilities."/>
+                                  description="We’ve designed a culture that allows our stewards to assimilate
+                                   with our clients and bring."/>
 
 
                     <DsnGrid className="background-main" col={2} colTablet={1} rowGapTablet={0} rowGapMobile={0}>
                         <div className="p-relative box-padding box-left order-md-2">
-                            <TitleCover>Diesel</TitleCover>
-                            <TitleSection className="mb-15" defaultSpace={false} description="Project Manager"/>
-                            <h4 className="mb-50">Get Dsn Grid today and start building
-                                next-generation websites in minutes!</h4>
+                            <TitleCover>BZ Tech</TitleCover>
+                            <TitleSection className="mb-15" defaultSpace={false} description="Creative Tech Synthesis"/>
+                            <h4 className="mb-50">We leverage evolving tech, expertise, and collaboration for efficient solutions!</h4>
                             <ServiceGrid className="icon-left p-0" rowGapTablet={30} rowGapMobile={30}
                                          data={[
                                              {
                                                  icon: <Image  src="/img/team/1.jpg" alt="" width={70} height={70} />,
-                                                 title: "Build powerful websites with Essentials",
-                                                 description: `Start building next-level websites using Essentials WordPress theme. `
+                                                 title: "In-House Talent",
+                                                 description: `We leverage our in-house expertise alongside outsourced resources to optimize development efficiency and deliver high-quality solutions `
                                              }, {
                                                  icon: <Image src="/img/team/2.jpg" alt="" width={70} height={70}/>,
-                                                 title: "Build powerful websites with Essentials",
-                                                 description: `Start building next-level websites using Essentials WordPress theme. `
+                                                 title: " Customized Suite of E-Commerce, HRMS,SAAS ,CMM, and CRM",
+                                                 description: `We seamlessly integrate our customized e-commerce, HRMS, CMM, and CRM solutions, serving over 100 satisfied customers, empowering them in their daily business operations. `
                                              }, {
                                                  icon: <Image src="/img/team/3.jpg" alt="" width={70} height={70}/>,
-                                                 title: "Build powerful websites with Essentials",
-                                                 description: `Start building next-level websites using Essentials WordPress theme. `
+                                                 title: "How We Work? ",
+                                                 description: `Navigating tech advancements poses challenges. From digitization to custom software, identifying needs, planning, and resource management can be overwhelming. `
                                              }
                                          ]}
                             />
@@ -187,7 +185,7 @@ function Service() {
                             </div>
                         </div>
                     </DsnGrid>
-                    <ServiceGrid className="mt-50 p-0 text-center" data={getServiceData().slice(0, 3)} col={3} colTablet={2}
+                    <ServiceGrid className="mt-50 p-0 text-center" data={getServiceData()} col={3} colTablet={2}
                                  colGap={50}/>
                 </div>
 
@@ -196,13 +194,13 @@ function Service() {
             {/*<!-- ========== End About section ========== */}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Best Team Ever">
+            {/* <section className="container section-margin " data-dsn-title="Best Team Ever">
                 <TitleSection description={"Our Team"}>
                     The Best Team Ever!
                 </TitleSection>
 
                 <Team data={getTeamData().slice(0,3)} className={"team-classic"} col={3} colTablet={2}/>
-            </section>
+            </section> */}
             {/*========== End team Section ========== */}
 
             {/*========== Next Page ==========*/}

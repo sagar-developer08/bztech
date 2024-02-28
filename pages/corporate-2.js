@@ -91,7 +91,7 @@ function Corporate() {
             {/*Start Service*/}
             <div className="container section-margin" data-dsn-title="our Services">
                 <TitleSection description={"WHY CHOOSE US?"}>
-                    We are delivering beautiful <br/> digital products for you.
+                Transforming digital landscapes <br/> with innovative solutions
                 </TitleSection>
                 <ServiceSwiperOne/>
             </div>
@@ -150,7 +150,7 @@ function Corporate() {
             <section className="container section-margin" data-dsn-title="our clients">
                 <TitleSection className={`align-items-center text-center`}
                               description={"Our clients"}>
-                    Successful, Our Reputation
+                    Success, Our Reputation
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={2} colGap={0} rowGap={0}/>
