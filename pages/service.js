@@ -29,7 +29,7 @@ function Service() {
     return (
         <Layout  modelRight={{children:<ModalContact />,propsModal:{textBtn:"Contact"}}}>
             <Head>
-                <title>Service  | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Service  |Discover BZ Tech's premier software solutions: SaaS products, web development, mobile apps, and cloud security services </title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
@@ -75,17 +75,17 @@ function Service() {
 
 
             {/*<!-- ========== About section ========== */}
-            <div className="p-relative background-section section-padding" data-dsn-title="products better">
+            <div className="p-relative background-section section-padding" data-dsn-title="Experties">
                 <DsnGrid className="container" col={2} colTablet={1}>
                     <div className="p-relative box-left">
                         <div className="box-im h-100 ">
-                            <Image className="cover-bg-img " src="/img/rachel-claire.jpg" alt="" fill sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                            <Image className="cover-bg-img " src="https://www.vkreate.in/storage/services_image/2019-10-02-17-55-54-5d94e4aa809b3-web-development.gif" alt="" fill sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
                         </div>
                     </div>
 
                     <div className="p-relative box-right">
                         <TitleCover>BZ Tech</TitleCover>
-                        <TitleSection className="mb-30" description="We make digital" defaultSpace={false}>
+                        <TitleSection className="mb-30" description="What you can expert" defaultSpace={false}>
                         From inception to launch, we provide end-to-end project strategy and development services
                         </TitleSection>
                         <List className="border-top  pt-30 mb-30" col={2} iconSize={"15px"}>
@@ -114,7 +114,7 @@ function Service() {
 
 
             {/*<!-- ========== About section ========== */}
-            <div className="p-relative section-margin" data-dsn-title="BUSINESS CONSULTING">
+            <div className="p-relative section-margin" data-dsn-title="About Us">
                 <DsnGrid className="container" col={2} colTablet={1}>
                     <div className="p-relative box-left order-md-2">
                         <TitleCover>BZ Tech</TitleCover>
@@ -134,7 +134,7 @@ function Service() {
                     </div>
                     <div className="p-relative box-right order-md-1">
                         <div className="box-im h-100 ">
-                            <Image className="cover-bg-img " src="/img/help-project.jpg" alt="" fill sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"/>
+                            <Image className="cover-bg-img " src="https://i.pinimg.com/originals/68/45/e3/6845e3e3b96d3ccb85dcbb9880351074.gif" alt="" fill sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"/>
                         </div>
                     </div>
 
@@ -145,7 +145,7 @@ function Service() {
 
 
             {/*<!-- ========== About section ========== */}
-            <div className="p-relative background-section section-padding" data-dsn-title="Project Manager">
+            <div className="p-relative background-section section-padding" data-dsn-title="BUSINESS CONSULTING">
 
                 <div className="container">
                     <TitleSection className="text-center" description="Other Services" defaultSpace={false}>
@@ -164,15 +164,15 @@ function Service() {
                             <ServiceGrid className="icon-left p-0" rowGapTablet={30} rowGapMobile={30}
                                          data={[
                                              {
-                                                 icon: <Image  src="/img/team/1.jpg" alt="" width={70} height={70} />,
+                                                 icon: <Image  src="/img/team/1.png" alt="" width={70} height={70} />,
                                                  title: "In-House Talent",
                                                  description: `We leverage our in-house expertise alongside outsourced resources to optimize development efficiency and deliver high-quality solutions `
                                              }, {
-                                                 icon: <Image src="/img/team/2.jpg" alt="" width={70} height={70}/>,
+                                                 icon: <Image src="/img/team/2.png" alt="" width={70} height={70}/>,
                                                  title: " Customized Suite of E-Commerce, HRMS,SAAS ,CMM, and CRM",
                                                  description: `We seamlessly integrate our customized e-commerce, HRMS, CMM, and CRM solutions, serving over 100 satisfied customers, empowering them in their daily business operations. `
                                              }, {
-                                                 icon: <Image src="/img/team/3.jpg" alt="" width={70} height={70}/>,
+                                                 icon: <Image src="/img/team/3.png" alt="" width={70} height={70}/>,
                                                  title: "How We Work? ",
                                                  description: `Navigating tech advancements poses challenges. From digitization to custom software, identifying needs, planning, and resource management can be overwhelming. `
                                              }
@@ -181,7 +181,7 @@ function Service() {
                         </div>
                         <div className="p-relative box-right order-md-1">
                             <div className="box-im h-100 ">
-                                <Image className="cover-bg-img " src="/img/corporate.jpg" alt="" fill  sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"/>
+                                <Image className="cover-bg-img " src="https://www.binarycode.co.nz/wp-content/uploads/2023/02/SharePoint-Consulting.gif" alt="" fill  sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw"/>
                             </div>
                         </div>
                     </DsnGrid>

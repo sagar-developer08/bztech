@@ -33,7 +33,8 @@ function Home() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>Home | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Home | BZ Technologies - Leading provider of innovative software solutions for businesses.
+                     Specializing in custom software development, mobile apps, web applications, and IT consulting services.</title>
             </Head>
             <SliderPortfolio
                 webgel
@@ -46,7 +47,7 @@ function Home() {
                 metaData={{hasSeparator: true}}
             />
             <HeroSection className="container section-margin container fill-right-container"
-                         data-dsn-title="How We Are"/>
+                         data-dsn-title="Who We Are"/>
 
             {/*Start Service*/}
             <div className="container section-margin" data-dsn-title="Our Services">
@@ -62,7 +63,7 @@ function Home() {
 
             {/*Start Box Info Move Content*/}
             <div className="p-relative section-margin">
-                <ParallaxImage src="/img/project/project3/2.jpg" overlay={2} alt={""}/>
+                <ParallaxImage src="/img/Real/10.jpg" overlay={2} alt={""}/>
                 <MoveBox tablet={false}>
                     <TitleSection
                         className={`align-items-start mb-30`}
@@ -145,13 +146,13 @@ function Home() {
             {/*End testimonial Section*/}
 
             {/*Start box vertical Section*/}
-            <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Services">
+            <section className="box-gallery-vertical container section-margin" data-dsn-title="Our Vision">
                 <DsnGrid col={2} colTablet={1} colGap={0} rowGap={0} rowGapTablet={0} rowGapMobile={0}>
                     <div className="p-relative mb-lg-section">
                         <div className="box-im w-100 h-100 p-absolute">
                             <ParallaxImage
                                 alt={""}
-                                src={"/img/plan-project.jpg"}
+                                src={"/img/Real/16.jpg"}
                                 overlay={3}
                                 height="100%"
                                 heightTable={"70vh"}

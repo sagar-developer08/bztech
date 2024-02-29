@@ -10,8 +10,8 @@ const data = [
     {src: "/img/logo/4.png"},
     {src: "/img/logo/5.png"},
     {src: "/img/logo/6.png"},
-    {src: "/img/logo/1.png"},
-    {src: "/img/logo/3.png"},
+    {src: "/img/logo/7.png"},
+    {src: "/img/logo/8.png"},
 ];
 
 
