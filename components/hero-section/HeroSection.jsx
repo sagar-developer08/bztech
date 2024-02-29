@@ -16,7 +16,7 @@ const HeroContent = {
     // authorJob: "Digital Artisit",
     experienceNumber: "4+",
     experienceDescription: `YEARS OF \n EXPERIENCE`,
-    heroImage: '/img/about-intro.jpg',
+    heroImage: '/img/Real/11.jpg',
     awards: [
         {number: "4+", description: `Years <br/> in Industries`},
         {number: "60+", description: `Projects <br/> Completed`},

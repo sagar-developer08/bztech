@@ -33,15 +33,15 @@ function About() {
     return (
         <Layout modelRight={{children: <ModalContact/>, propsModal: {textBtn: "Contact"}}}>
             <Head>
-                <title>About Us | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>About Us | Learn about BZ Tech, a leading provider of innovative software solutions for businesses worldwide.</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">
                 <p className="subtitle p-relative line-shape line-shape-after mb-30">
-                    <span className="pl-10 pr-10 background-section">DESIGN STUDIO</span>
+                    <span className="pl-10 pr-10 background-section">BZ Tech</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    WE DIGITAL CREATIVE <br/> Agency
+                   Inovation Begins Here
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
@@ -58,37 +58,29 @@ function About() {
                 <TitleSection className="mb-15" description={"What We Do"} defaultSpace={false}/>
                 <DsnGrid col={2} colTablet={1}>
                     <div className="box-left">
-                        <h4> Keep Your Business Safe & Ensure High Availability </h4>
+                        <h4> Design Strategy, Web and Mobile App Design,Front-end Development & Back-end Development </h4>
                     </div>
                     <div className="box-right">
                         <p className="max-w570 dsn-up mb-15 ">
-                            A business consulting agency is involved in the planning,
-                            implementation, and education of businesses. We work directly with
-                            business owners on developing a business plan, identifying
-                            marketing needs and developing the necessary skills for business
-                            ownership.
-                        </p>
-
-                        <p className="max-w570 dsn-up">
-                            but deploy to production. C-suite. First-order optimal strategies
-                            build on a culture of contribution and inclusion so those options
+                        BZ Tech offers comprehensive design, development, and business strategy services while prioritizing social responsibility,
+                        guiding businesses towards success in a competitive landscape.
                         </p>
                     </div>
                 </DsnGrid>
                 <List className="pt-50 mt-50 border-top pt-md-30 mt-md-30" col={3} iconSize={"21px"}>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Advanced Grid </List.item>
+                               className="align-items-center"> Crafting Code, Inspiring Futures </List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Top Performance</List.item>
+                               className="align-items-center"> Where Innovation Meets Functionality</List.item>
                     <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color"/>}
-                               className="align-items-center"> Responsive Design</List.item>
+                               className="align-items-center"> Empowering Tomorrow's Solutions, Today.</List.item>
                 </List>
             </div>
             {/*<!-- ========== End About Section ========== */}
 
             {/*Start Gallery List*/}
             <BoxGallery className="section-margin container" col={2}>
-                <BoxGalleryItem src="/img/help-project.jpg" groupPopup="gallery"/>
+                <BoxGalleryItem src="/img/3.jpg" groupPopup="gallery"/>
                 <BoxGalleryItem src="/img/plan-project.jpg" groupPopup="gallery"/>
             </BoxGallery>
             {/*End Gallery List*/}
@@ -97,15 +89,15 @@ function About() {
             <section className="section-padding background-section" data-dsn-title="Services">
                 <div className="container">
                     <TitleSection description="Our Services">
-                        We are delivering beautiful <br/> digital products for you.
+                    Crafting exquisite digital solutions for <br/>  software, SaaS, and eCommerce needs. 
                     </TitleSection>
-                    <Service.grid className="icon-left" styleBox="list" data={getServiceData().slice(0, 3)}/>
+                    <Service.grid className="icon-left" styleBox="list" data={getServiceData()}/>
                 </div>
             </section>
             {/*End awards Section*/}
 
 
-            <section className="awards-section section-margin" data-dsn-title="Awards">
+            {/* <section className="awards-section section-margin" data-dsn-title="Awards">
                 <div className="container">
                     <DsnGrid col={2} colTablet={1}>
                         <div className="box-left">
@@ -125,16 +117,16 @@ function About() {
                         </div>
                     </DsnGrid>
                 </div>
-            </section>
+            </section> */}
 
             {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Team">
+            {/* <section className="container section-margin " data-dsn-title="Team">
                 <TitleSection description={"Our Team"}>
                     The Best Team Ever!
                 </TitleSection>
 
                 <Team data={getTeamData().slice(0, 4)} col={2} colTablet={2}/>
-            </section>
+            </section> */}
             {/*========== End team Section ========== */}
 
             {/*Start testimonial Section*/}
@@ -170,8 +162,8 @@ function About() {
             {/*========== Start brand-client Section ==========*/}
             <section className="container section-margin" data-dsn-title="Client">
                 <TitleSection description={"Our clients"}>
-                    Your successful, our <br/>
-                    reputation
+                    Your Success, Our <br/>
+                    Reputation
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={2} colGap={0} rowGap={0}/>

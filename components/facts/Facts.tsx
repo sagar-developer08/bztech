@@ -1,7 +1,7 @@
-import DsnGrid, {DsnGridProps} from "../../layout/DsnGrid";
-import {dsnCN} from "../../hooks/helper";
+import DsnGrid, { DsnGridProps } from "../../layout/DsnGrid";
+import { dsnCN } from "../../hooks/helper";
 
-function Facts({className , ...restProps} : DsnGridProps) {
+function Facts({ className, ...restProps }: DsnGridProps) {
     return (
         <DsnGrid className={dsnCN("facts-section p-relative over-hidden", className)} {...restProps}>
             <div className="facts-item">
@@ -27,8 +27,8 @@ function Facts({className , ...restProps} : DsnGridProps) {
 
             <div className="facts-item">
                 <div className="text-center p-relative">
-                    <span className="number">8+</span>
-                    <h6 className="sm-title-block v-middle w-100">Current Ongoing Projects</h6>
+                    <span className="number">40+</span>
+                    <h6 className="sm-title-block v-middle w-100">Mebmers</h6>
                 </div>
             </div>
         </DsnGrid>
