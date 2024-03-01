@@ -10,6 +10,7 @@ const menuContent = [
     },
     { name: "Service", href: "/service" },
     { name: "About", href: "/about" },
+    {name:"protfolio",href:"/profile"},
     { name: "Contact", href: "/contact" },
 ];
 
