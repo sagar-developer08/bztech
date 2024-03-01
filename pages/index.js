@@ -55,7 +55,7 @@ function Home() {
                     className="align-items-center text-center"
                     description={"Our Services"}
                 >
-                    Crafting exquisite digital solutions for Software, <br/> SaaS, and eCommerce needs.
+                    Crafting exquisite digital solutions for Software, <br/> SaaS, and E-Commerce needs.
                 </TitleSection>
                 <ServiceOne/>
             </div>
@@ -87,7 +87,7 @@ function Home() {
                     </Button> */}
 
                     <p className={`sm-p mt-15 theme-color`}>
-                        NOTE : Some details are very important.
+                        NOTE : Empower your business with our tailored software solutions.
                     </p>
                 </MoveBox>
             </div>
