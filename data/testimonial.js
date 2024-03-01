@@ -31,10 +31,8 @@ const TestimonialDetails = [
         name: "Michael P. ",
         label: "Founder of GHI Technologies",
         src: "https://res.cloudinary.com/dsj9t6adh/image/upload/v1688328396/LocoPA_1592313175874_1592313196211_fefslk.webp",
-        description: `"BZ TECH's expertise in software development is unmatched. 
-        Their team not only delivered a flawless product but also provided excellent support throughout the entire process.
-         We're incredibly satisfied with the results and would highly recommend their services to anyone 
-         seeking top-notch software solutions"`
+        description: `BZ TECH is a reliable partner that consistently delivers exceptional results. 
+        Their ability to understand our unique needs and translate them into innovative software solutions is truly remarkable. Working with them was a seamless experience, and we're thrilled with the outcome. I wholeheartedly endorse BZ TECH to anyone looking for top-tier software development service`
     },
 
 ]
