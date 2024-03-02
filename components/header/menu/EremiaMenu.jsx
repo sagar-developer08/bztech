@@ -5,9 +5,7 @@ import Logo from "../../logo/Logo";
 
 
 const menuContent = [
-    {
-        name: "Home", href: "/"
-    },
+    {name: "Home", href: "/"},
     { name: "Service", href: "/service" },
     { name: "About", href: "/about" },
     {name:"PortFolio",href:"/profile"},
@@ -31,7 +29,7 @@ const EremiaMenu = ({ hamburger }) => {
 
     return (
         <Navbar hamburger={hamburger}>
-            <Navbar.Brand href={"/"} transitionPage={{ title: "BZ Tech" }}>
+            <Navbar.Brand href={"/"} transitionPage={{ title: "BZ TECH" }}>
                 <Logo width="75px" height="auto" />
             </Navbar.Brand>
 
