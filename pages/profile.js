@@ -39,7 +39,7 @@ function Profile(params) {
             {/*========== End Header Normal ==========*/}
              {/*Start Img1 */}
              <div className="container p-relative">
-                <Image className="w-100" alt={""} src={"/img/project/project2/1.png"}  width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                <Image className="w-100" alt={""} src={"/img/project/project2/1.png"}  width={1400} height={688} style={{borderRadius:"30px"}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
             </div>
             {/*End Img1 */}
 
@@ -83,7 +83,7 @@ function Profile(params) {
             {/*End Intro Project1 */}
               {/*Start Img 2 */}
               <div className="container p-relative">
-                <Image className="w-100" alt={""} src={"/img/project/project2/2.png"}  width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                <Image className="w-100" alt={""} src={"/img/project/project2/2.png"}  width={1400} height={688} style={{borderRadius:"30px"}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
             </div>
             {/*End Img 2 */}
 
@@ -127,7 +127,7 @@ function Profile(params) {
             {/*End Intro Project 2 */}
               {/*Start Img 3 */}
               <div className="container p-relative">
-                <Image className="w-100" alt={""} src={"/img/project/project2/3.png"}  width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                <Image className="w-100" alt={""} src={"/img/project/project2/3.png"}  width={1400} height={688} style={{borderRadius:"30px"}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
             </div>
             {/*End Img 3 */}
 
@@ -172,7 +172,7 @@ function Profile(params) {
 
               {/*Start Img 4 */}
               <div className="container p-relative">
-                <Image className="w-100" alt={""} src={"/img/project/project2/4.png"}  width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                <Image className="w-100" alt={""} src={"/img/project/project2/4.png"}  width={1400} height={688}  style={{borderRadius:"30px"}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
             </div>
             {/*End Img 4 */}
 
@@ -217,7 +217,7 @@ function Profile(params) {
 
             {/*Start Img 5 */}
             <div className="container p-relative">
-                <Image className="w-100" alt={""} src={"/img/project/project2/5.png"}  width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                <Image className="w-100" alt={""} src={"/img/project/project2/5.png"}  width={1400} height={688} style={{borderRadius:"30px"}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
             </div>
             {/*End Img 5 */}
 
@@ -262,7 +262,7 @@ function Profile(params) {
 
               {/*Start Img 6 */}
               <div className="container p-relative">
-                <Image className="w-100" alt={""} src={"/img/project/project2/6.png"}  width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
+                <Image className="w-100" alt={""} src={"/img/project/project2/6.png"}  width={1400} height={688}  style={{borderRadius:"30px"}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"/>
             </div>
             {/*End Img 6 */}
 
