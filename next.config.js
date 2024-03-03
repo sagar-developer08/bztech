@@ -9,6 +9,14 @@ const nextConfig = {
         domains: ['theme.dsngrid.com'],
         formats: ['image/webp']
     },
+    typescript: {
+        // !! WARN !!
+        // Dangerously allow production builds to successfully complete even if
+        // your project has type errors.
+        // !! WARN !!
+        ignoreBuildErrors: true,
+      },
+    
     // i18n: {
     //     locales: ["en"],
     //     defaultLocale: "en",

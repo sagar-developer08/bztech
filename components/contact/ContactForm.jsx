@@ -14,10 +14,10 @@ function ContactForm({className}) {
         setResult(false);
         setLoading(true);
         emailjs.sendForm(
-            'service_mxt8ue9',
-            'template_1f1243o',
+            'service_3gqx4zc',
+            'template_ah549qk',
             form.current,
-            'bvnMqTU1Ir-7kgLNL')
+            'APynEQg43BOuN8V9z')
             .then((result) => {
                 setLoading(false);
                 setResult(true);
