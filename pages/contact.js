@@ -11,7 +11,7 @@ import NextPage2 from "../components/next/NextPage2";
 import Footer from "../components/footer/Footer";
 import Head from "next/head";
 
-function About() {
+function Contact() {
     TitleSection.defaultProps = {
         classDesc: "line-shape line-shape-before",
         classDesInner: "line-bg-right",
@@ -44,15 +44,15 @@ function About() {
                 height="80vh"
                 defaultCenter={{lat: 19.2355, lng: 72.8468}}
             /> */}
-             <iframe
+            <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.7212379528287!2d72.86145047520648!3d19.11988138209383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c825662c7fc5%3A0xad3d66ac3ede302c!2sPinnacle%20Business%20Park!5e0!3m2!1sen!2sin!4v1709209407338!5m2!1sen!2sin"
-                width="1335"
+                width="100%"
                 height="450"
                 style={{ border: "0" }}
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-            ></iframe> 
+            ></iframe>
             {/*Start Contact Form && Info Box*/}
             <div className="section-margin container">
                 <DsnGrid col={2} colTablet={1}>
@@ -73,4 +73,4 @@ function About() {
     );
 }
 
-export default About;
+export default Contact;

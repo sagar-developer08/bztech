@@ -25,6 +25,10 @@ function CommentForm({className}) {
                             <input name="email" type="email" placeholder="Type your Email Address" value=""
                                 maxLength="245" required=""/>
                         </div>
+                        <div className="entry-form p-relative">
+                            <input name="number" type="number" placeholder="Type your Phone Number" value=""
+                                maxLength="10" required=""/>
+                        </div>
                     </DsnGrid>
 
                     <div className="entry-form p-relative mb-30">
