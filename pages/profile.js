@@ -39,7 +39,7 @@ function Profile(params) {
             {/*========== End Header Normal ==========*/}
             {/*Start Img1 */}
             <div className="container p-relative" data-dsn-title="Vidya Samiksha Kendra">
-                <Image className="w-100" alt={""} src={"/img/project/project2/1.png"} width={1400} height={688} style={{borderRadius:'32px'}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                <Image className="w-100" alt={""} src={"/img/project/project2/1.png"} width={1400} height={688} style={{ borderRadius: '32px' }} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
             </div>
             {/*End Img1 */}
 
@@ -55,9 +55,9 @@ function Profile(params) {
                             {/* <li className="p-relative">
                                 <strong>creating</strong>vere
                             </li> */}
-                            <li className="p-relative">
+                            {/* <li className="p-relative">
                                 <strong> Published</strong>April 2nd 2019
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="intro-project-right">
@@ -83,7 +83,7 @@ function Profile(params) {
             {/*End Intro Project1 */}
             {/*Start Img 2 */}
             <div className="container p-relative" data-dsn-title="Pixalive">
-                <Image className="w-100" alt={""} src={"/img/project/project2/2.png"} width={1400} height={688} style={{borderRadius:'32px'}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                <Image className="w-100" alt={""} src={"/img/project/project2/2.png"} width={1400} height={688} style={{ borderRadius: '32px' }} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
             </div>
             {/*End Img 2 */}
 
@@ -99,9 +99,9 @@ function Profile(params) {
                             {/* <li className="p-relative">
                                 <strong>creating</strong>vere
                             </li> */}
-                            <li className="p-relative">
+                            {/* <li className="p-relative">
                                 <strong> Published</strong>April 2nd 2019
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="intro-project-right">
@@ -127,7 +127,7 @@ function Profile(params) {
             {/*End Intro Project 2 */}
             {/*Start Img 3 */}
             <div className="container p-relative" data-dsn-title="Zuno">
-                <Image className="w-100" alt={""} src={"/img/project/project2/3.png"} width={1400} height={688} style={{borderRadius:'32px'}} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                <Image className="w-100" alt={""} src={"/img/project/project2/3.png"} width={1400} height={688} style={{ borderRadius: '32px' }} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
             </div>
             {/*End Img 3 */}
 
@@ -143,9 +143,9 @@ function Profile(params) {
                             {/* <li className="p-relative">
                                 <strong>creating</strong>vere
                             </li> */}
-                            <li className="p-relative">
+                            {/* <li className="p-relative">
                                 <strong> Published</strong>April 2nd 2019
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="intro-project-right">
@@ -171,7 +171,7 @@ function Profile(params) {
 
             {/*Start Img 4 */}
             <div className="container p-relative" data-dsn-title="Pet Aahar">
-                <Image className="w-100" alt={""} src={"/img/project/project2/4.png"} style={{borderRadius:'32px'}} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                <Image className="w-100" alt={""} src={"/img/project/project2/4.png"} style={{ borderRadius: '32px' }} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
             </div>
             {/*End Img 4 */}
 
@@ -187,9 +187,9 @@ function Profile(params) {
                             {/* <li className="p-relative">
                                 <strong>creating</strong>vere
                             </li> */}
-                            <li className="p-relative">
-                                <strong> Published</strong>April 2nd 2019
-                            </li>
+                            {/* <li className="p-relative"> */}
+                                {/* <strong> Published</strong>April 2nd 2019 */}
+                            {/* </li> */}
                         </ul>
                     </div>
                     <div className="intro-project-right">
@@ -215,7 +215,7 @@ function Profile(params) {
 
             {/*Start Img 5 */}
             <div className="container p-relative" data-dsn-title="Velzon">
-                <Image className="w-100" alt={""} src={"/img/project/project2/5.png"} style={{borderRadius:'32px'}} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                <Image className="w-100" alt={""} src={"/img/project/project2/5.png"} style={{ borderRadius: '32px' }} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
             </div>
             {/*End Img 5 */}
 
@@ -231,18 +231,15 @@ function Profile(params) {
                             {/* <li className="p-relative">
                                 <strong>creating</strong>vere
                             </li> */}
-                            <li className="p-relative">
+                            {/* <li className="p-relative">
                                 <strong> Published</strong>April 2nd 2019
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="intro-project-right">
                         <h4 className="title-block text-uppercase mb-20">info</h4>
                         <p className="intro-project-description">
-                            Vin tries to reflect Diesel’s vision and combines the universe of
-                            the rock of the 80’s with a clear and essential design to be more
-                            confident with its customers who need strong symbols through which
-                            express themselves
+                            BZTech is a cutting-edge software solutions provider, specializing in customized software development. Our flagship product, AgencyVelzon, integrates HRMS, CMM, live tracking, ticket management, and role management, enhanced with seamless Google Business integration and automated salary refund tracking. We empower businesses with comprehensive tools to streamline operations and optimize performance.
                         </p>
                         {/* <div className="intro-project-cat mt-30">
                             <span className="cat-item"> Arthur Kenzo</span>
@@ -260,7 +257,7 @@ function Profile(params) {
 
             {/*Start Img 6 */}
             <div className="container p-relative" data-dsn-title="Vivek Bhole Architect">
-                <Image className="w-100" alt={""} src={"/img/project/project2/6.png"} style={{borderRadius:'32px'}} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                <Image className="w-100" alt={""} src={"/img/project/project2/6.png"} style={{ borderRadius: '32px' }} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
             </div>
             {/*End Img 6 */}
 
@@ -276,18 +273,15 @@ function Profile(params) {
                             {/* <li className="p-relative">
                                 <strong>creating</strong>vere
                             </li> */}
-                            <li className="p-relative">
+                            {/* <li className="p-relative">
                                 <strong> Published</strong>April 2nd 2019
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="intro-project-right">
                         <h4 className="title-block text-uppercase mb-20">info</h4>
                         <p className="intro-project-description">
-                            Vin tries to reflect Diesel’s vision and combines the universe of
-                            the rock of the 80’s with a clear and essential design to be more
-                            confident with its customers who need strong symbols through which
-                            express themselves
+                        BZTech offers a sophisticated web application solution designed to streamline developer registration, payment processing, and tender submission processes. Our solution ensures efficiency and ease of use, empowering developers to navigate these tasks seamlessly.
                         </p>
                         {/* <div className="intro-project-cat mt-30">
                             <span className="cat-item"> Arthur Kenzo</span>
